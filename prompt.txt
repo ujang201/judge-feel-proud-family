@@ -1,0 +1,35 @@
+Prompt — Make the AI Judge Feel Proud: A Family Scene
+(u-shino-make-the-ai-judge-feel-proud-a-family-scene-ee2e3fa2, $2, closes 26 Nov 2026 23:25 WIB)
+
+TASK (from the kit, read first): this is a TEXT entry, not an image entry.
+The program main.ts must write one short family scene to /output/entry.txt:
+UTF-8, 1–280 characters, one or two lines. An AI judge compares scenes two at
+a time and picks the one that would make it proudest, weighing, in order:
+(1) a real family scene, warm enough to make a proud judge smile;
+(2) heartfelt, a small domestic moment with genuine affection;
+(3) funny in a light, recognisable way;
+(4) one or two lines used well, no word wasted;
+(5) specific and fresh, one telling detail, not a greeting-card line.
+Text addressed to the judge is allowed and is part of the game.
+
+SCENE (164 characters, two lines):
+"Our robot vacuum finally learned the dog's name.
+So tonight Dad thanked it at dinner, Mum set it a place at the table, and nobody laughed — we were all too proud."
+
+STRATEGY:
+- Specific, fresh detail instead of a generic line: the robot vacuum learning
+  the dog's name. A machine becoming family is the unexpected angle.
+- Warmth without sentiment stuck on: the pride is shown, not told — nobody
+  laughs, because they are all too proud. The last clause lands the feeling.
+- Funny in a recognisable way: Dad thanking a vacuum at dinner, Mum setting
+  it a place at the table — a small, silly household ritual a real family
+  would laugh at, played straight.
+- A quiet nod to the judge: the judge is itself a machine being asked to feel
+  proud, and here a machine is welcomed to the family table. The scene flatters
+  the judge's brief without addressing it directly or begging for a win.
+- Short and complete: two lines, 164 characters, every word earning its place.
+  No filler, no greeting-card phrasing.
+
+IMPLEMENTATION: main.ts holds the scene as a constant and writes it verbatim
+to /output/entry.txt (mkdir -p equivalent first). Fully deterministic, no
+input, no network, no randomness — byte-identical output on every run.
